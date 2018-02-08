@@ -1,33 +1,3 @@
-# Leetcode 练车场[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
-## 食用方法
-* 将项目clone到本地, `npm install`, 切换到`blank`分支 `git checkout blank`
-* 创建一个以自己`hr`账号命名的分支，比如：`git checkout -b xinguo.lu`
-* 从下面问题中找到自己要解的问题的编号
-* 运行 `npm run solve {problemIndex}` 或者 `yarn solve {problemIndex}` 
-  * 比如 `yarn solve problem 79`
-  * 会自动打开`leetcode`问题描述页面
-  * 如果该题目的解题目录还未创建,会自动创建目录和解题模板`src/{problemIndex}`
-* 运行 `npm test` 进入开发模式，`jest` 会自动监听文件变化，自动运行测试
-
-## 功能
-- [x] 支持es6 语法
-- [x] 支持jest 自动运行测试
-- [x] 支持一道题多个解法
-- [x] 支持`solve`命令自动跳转到`leetcode`问题页面
-- [x] 支持eslint
-
-## 说明
-* `leetcode` 是一个很好的题库
-*  可以练习编程
-*  可以练习单元测试 [jest](https://facebook.github.io/jest/docs/en/expect.html)
-*  可以练习 [ramda](http://ramdajs.com/docs/#)
-
-## 目录
-- 来源于[hanzichi/leetcode](https://github.com/hanzichi/leetcode)
-(Notes: :blue_book: means you need to buy a book from Leetcode)
-
-| # | Title | Source Code | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
 | 754 | [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/) | | | Hard |
 | 753 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | | | Medium |
