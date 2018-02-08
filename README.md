@@ -1,8 +1,8 @@
-# Leetcode 练车场[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+# Leetcode 试炼场[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## 食用方法
-* 将项目clone到本地, `npm install`, 切换到`blank`分支 `git checkout blank`
-* 创建一个以自己`hr`账号命名的分支，比如：`git checkout -b xinguo.lu`
+* 将项目clone到本地, `npm install`, 切换到`master`分支 `git checkout master`
+* 创建一个以自己账号命名的分支，比如：`git checkout -b xxx`
 * 从下面问题中找到自己要解的问题的编号
 * 运行 `npm run solve {problemIndex}` 或者 `yarn solve {problemIndex}` 
   * 比如 `yarn solve problem 79`
